@@ -1,6 +1,6 @@
 import {createPhotosArray} from './data.js';
 import { renderThumbnails } from './thumbnails.js';
-import { openFullPicture } from './full-picture.js';
+
 // Создаем временные данные для разработки
 const photos = createPhotosArray();
 
