@@ -32,8 +32,7 @@ function updateCommentCounter() {
   socialCommentShownCount.textContent = commentsShown;
   socialCommentTotalCount.textContent = currentComments.length;
 }
-console.log(socialCommentShownCount);
-console.log(socialCommentTotalCount);
+
 // Функция для отрисовки комментариев (по 5 штук)
 function renderComments() {
   const commentsToShow = currentComments.slice(commentsShown, commentsShown + COMMENTS_PER_LOAD);
